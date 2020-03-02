@@ -28,7 +28,7 @@ namespace Esercizio_per_casa_1
             {
                 Console.WriteLine("il numero inserito è minore di 0");
             }
-            Console.ReadLine();
+            Console.ReadLine(); 
         }
     }
 }
