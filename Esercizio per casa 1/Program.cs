@@ -23,6 +23,10 @@ namespace Esercizio_per_casa_1
                 }
                 else
                 {
+                    for (int c = 1 ; c <= n; c++)
+                    {
+                        
+                    }
                     Console.WriteLine($"il numero {n} è DISPARI");
                 }
             }
