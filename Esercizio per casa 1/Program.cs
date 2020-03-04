@@ -13,11 +13,13 @@ namespace Esercizio_per_casa_1
                 if (n % 2 == 0)
                 {
                     Console.WriteLine($"il numero {n} è PARI");
-                    for (int i = 0; i <= n; i++)
+                    for (int i = 1; i <= n; i++)
                     {
-                        Console.WriteLine(i.ToString());
+                        if( i % 2 == 0)
+                        {
+                            Console.WriteLine(i.ToString());
+                        }
                     }
-                    Console.ReadLine();
                 }
                 else
                 {
