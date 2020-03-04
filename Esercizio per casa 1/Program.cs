@@ -25,7 +25,10 @@ namespace Esercizio_per_casa_1
                 {
                     for (int c = 1 ; c <= n; c++)
                     {
-                        
+                        if( c % 2 == 1)
+                        {
+                            Console.WriteLine(c.ToString());
+                        }
                     }
                     Console.WriteLine($"il numero {n} è DISPARI");
                 }
